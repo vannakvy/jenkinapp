@@ -1,6 +1,7 @@
 import express from 'express'
 
 const server = express()
+console.log("new changes go here");
 
 server.get('/',(req,res)=>{
     res.send("Hello world")
